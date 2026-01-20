@@ -2,7 +2,14 @@ AuthName "Nom d'utilisateur et mot de passe"
 
 AuthType Basic
 
-AuthUserFile C:/Users/Mpk20/Desktop/Portfolio_github-main/.htpasswd
+AuthUserFile C:\Projets multiples\Site_jeux_videos\.htaccess
 
 Require valid-user
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "https://www.youtube.com"
+    Header set Access-Control-Allow-Credentials "true"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+</IfModule>
 
