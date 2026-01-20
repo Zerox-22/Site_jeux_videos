@@ -3,7 +3,7 @@ p
     position: relative;
     color: white;
     font-size: 30px;
-    text-align: center 
+    text-align: center
 }
 a
 {
@@ -81,14 +81,20 @@ h6
 {
     color: white;
 }
-#YOUTUBE
+.YOUTUBE
 {
     color: red;
 }
 
 iframe
 {
-    margin: 25px;
+    display: flex;          /* crée un conteneur flex */
+    justify-content: center;/* centre horizontalement */
+    align-items: center;    /* centre verticalement (si hauteur définie) */
+    max-width: 100%;        /* empêche le débordement */
+    margin: 0 auto;         /* centre le bloc dans son parent */
+    width: 560px;   /* ou 100% pour responsive */
+    height: 315px;  /* ou calc(100% * 9 / 16) */
 }
 body
 {
