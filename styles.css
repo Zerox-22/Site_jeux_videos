@@ -85,8 +85,6 @@ h6
 {
     color: red;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
     justify-content: center;
     align-items: center;
     max-width: 100%;
