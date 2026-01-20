@@ -84,17 +84,13 @@ h6
 .YOUTUBE
 {
     color: red;
-}
-
-iframe
-{
-    display: flex;          /* crée un conteneur flex */
-    justify-content: center;/* centre horizontalement */
-    align-items: center;    /* centre verticalement (si hauteur définie) */
-    max-width: 100%;        /* empêche le débordement */
-    margin: 0 auto;         /* centre le bloc dans son parent */
-    width: 560px;   /* ou 100% pour responsive */
-    height: 315px;  /* ou calc(100% * 9 / 16) */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
 }
 body
 {

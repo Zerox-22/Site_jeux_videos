@@ -1,4 +1,8 @@
-AuthName "Page d'administration protégée.Merci."
+AuthName "Nom d'utilisateur et mot de passe"
+
 AuthType Basic
-AuthUserFile "Zerox-22/Portfolio_github-main/.htpasswd"
+
+AuthUserFile C:/Users/Mpk20/Desktop/Portfolio_github-main/.htpasswd
+
 Require valid-user
+
