@@ -38,6 +38,7 @@ a
 }
 h1
 {
+    text-align: center;
     background-color: black;
 }
 h2
@@ -104,11 +105,23 @@ h6
 {
     color: red;
 }
+#ADD
+{
+    color: red;
+}
+#AWD
+{
+    color: red;
+}
 iframe
 {
     margin: 25px;
 }
 body
 {
-    background:  position: fixed;
+    background:  position fixed;
+}
+li
+{
+    color: red
 }
