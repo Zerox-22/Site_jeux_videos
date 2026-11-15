@@ -1,0 +1,103 @@
+p
+{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: center
+}
+a
+{
+    display: inline;
+    font-family: fantasy;
+    color: yellow;
+    font-size: 30px;
+    margin-right: 50px;
+}
+#bienvenue
+{
+    margin-top: 150px;
+}
+.left
+{
+    height: 310px;
+    width: 160px;
+}
+.right
+{
+    height: 310px;
+    width: 1490px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+#text
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+h1
+{
+    text-align: center;
+    background-color: black;
+}
+h2
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+h4
+{
+    text-align: center;
+}
+h5
+{
+    text-align: center;
+}
+
+h6
+{
+    text-align: center;
+}
+#projets
+{
+    font-size: 50px;
+    text-align: center;
+}
+.img1
+{
+    text-align: center;
+    margin-top: 20px;
+}
+#projets2
+{
+    font-size: 50px;
+}
+#current_date
+{
+    color: white;
+}
+.YOUTUBE
+{
+    color: red;
+    display: grid;          /* ou display: grid; */
+    flex-wrap: wrap;
+    gap: 20px;              /* espace horizontal et vertical */
+    justify-content: center;
+}
+body
+{
+    background:  position fixed;
+}
+li
+{
+    color: red
+}
+.color
+{
+    color: red
+}
